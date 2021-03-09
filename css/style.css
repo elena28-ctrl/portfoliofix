@@ -1,0 +1,42 @@
+ body {
+     font-family: "inter", sans-serif;
+ }
+
+ .name {
+    position: absolute;
+    width: 288px;
+    height: 42px;
+    left: 390px;
+    top: 554px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 150%;
+    
+    color: #F3F2F0;
+    
+ }
+
+ .title-h1 {
+    position: absolute;
+    width: 797px;
+    height: 90px;
+    left: 390px;
+    top: 626px;
+
+   font-family: Inter;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 74px;
+   line-height: 90px;
+
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+
+   color: #F3F2F0;
+ }
+
+ 
+
