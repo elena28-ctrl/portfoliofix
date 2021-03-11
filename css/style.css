@@ -14,28 +14,64 @@
     padding-right: 15px;
  }
 
+ .title-h1 {
+   font-size: 74px;
+   text-transform: uppercase;
+ }
+
+ .name {
+   font-size: 28px;
+ }
+
  .photo {
     margin-bottom: 120px;
     width: 100%;
  }
 
- .name {
-    font-size: 28px;
-    
+ header { 
+    /* оба списка-ссылки встали в один ряд */
+    display: flex;
+    /* оба списка-ссылки встали по краям */
+    justify-content: space-between;
+   /* отступ от края до ссылок */
+    padding-top: 40px;
+   /* отступ от ссылок до картинки */
+    padding-bottom: 60px;
+
+
  }
 
- .title-h1 {
-   font-size: 74px;
-   text-transform: uppercase;
-   
+ .nav { 
+    /* убираем маркеры-точки сбоку списка-ссылок */
+    list-style-type: none;
+    /* убраем отступ который остался после того как убрали маркеры спсиска */
+    padding-left: 0;
+    /* обнуляем отступы сверху и с низу списка */
+    margin: 0;
+    /* список ссылок встаёт в ряд */
+    display: flex;
  }
+
+ .nav-item {
+    padding-left: 16px;
+    padding-right: 16px;
+ }
+
+ .nav-item:first-child {
+   padding-left: 0;
+ }
+
+ .nav-item:last-child {
+   padding-right: 0;
+ }
+
 
  .nav-link {
     text-decoration: none;
     color:#F3F2F0;
     font-size: 14px;
  }
-
+/* цвет ссылки при наведении на неё */
  .nav-link:hover {
     color: #D40000;
  }
